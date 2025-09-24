@@ -15,7 +15,7 @@ const FeaturedPropertyCard = ({ property }) => {
     if (rates.monthly) {
       return `${rates.monthly.toLocaleString()}/mes`;
     } else if (rates.weekly) {
-      return `${rates.weekly.toLocaleString()}/Semana`;
+      return `${rates.weekly.toLocaleString()}/Sem`;
     } else if (rates.nightly) {
       return `${rates.nightly.toLocaleString()}/noche`;
     }
