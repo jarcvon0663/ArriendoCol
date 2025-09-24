@@ -28,7 +28,7 @@ async function addMessage(previousState, formData) {
     name: formData.get('name'),
     email: formData.get('email'),
     phone: formData.get('phone'),
-    body: formData.get('message'),
+    body: formData.get('body'),
   });
 
   await newMessage.save();
